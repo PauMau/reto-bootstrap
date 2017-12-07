@@ -1,0 +1,136 @@
+/* Los estilos de tu proyecto */
+
+/* **************************** PRIMERA SECCIÓN - INICIA SESIÓN O REGISTRATE ******************** */
+body{
+	padding-right: 0;
+}
+
+.taxi{     /*   IMAGEN DEL TAXI COMO FONDO DE LA SECCION   */
+	background-image: url(../images/taxi.jpg);
+	height:100vh;
+	background-size:cover; 
+	background-position:bottom;  /* esto es para que muestre la parte baja de la imagen */
+	padding-top: 11em;
+}
+
+.main-row{
+	background-color: white;
+	flex-direction: row;
+
+}
+
+
+.containerstart{   /* AQUI VA EL CUADRO PARA INICIAR SESION */
+	background-color: gold;
+	padding: 3em;
+	padding-right: 0;
+	;
+	color: white;	
+	
+}
+
+
+/* **************************** SEGUNDA SECCIÓN - DESCARGA LA APP  ****************************** */
+
+.appmovil{   /* SECCION APP MOVIL  */
+	background-color: gold;
+	color: white;
+	padding-top: 3em;
+	padding-bottom: 3em;
+	padding-right: 20em;
+	padding-left: 0;
+	
+}
+
+#containerapp{    /*  IMAGEN DEL IPHONE Y LA INVITACION A BAJAR LA APP  */
+	border: 1px solid white;
+	color: white;	
+	padding-top: 3em;
+	padding-bottom: 3em;
+	padding-right: 6em;
+	
+}
+
+/* **************************** TERCERA SECCIÓN - CONVIERTETE EN CONDUCTOR  ****************************** */
+
+.driverimage{    /* IMAGEN DEL CONDUCTOR COMO FONDO DE LA SECCION */
+	background-image: url(../images/conduce.jpg);
+	height:70vh;
+	width: 100%;
+	background-size:cover; 
+	background-position:center ;  /* esto es para que muestre la parte central de la imagen */
+	padding-top: ;
+}
+
+.containerdriver{   /*  CONTENEDOR DE LA INVITACION A CONVERTIRTE EN CONDUCTOR */
+	background:rgba(0, 0, 0, 0.6);
+	color: white;
+	padding-top: 5.7em;
+	padding-left: 2em;
+	padding-right: 2em;
+	padding-bottom: 14em;
+	
+}
+
+
+
+/* **************************** CUARTA SECCIÓN -TARIFAS Y MAPA ****************************** */
+
+
+.mapandadd{
+	padding: 2em;
+	background-color: gold;
+	color: white;
+
+
+}
+
+.containermap{	
+	padding: 5em;
+	
+}
+
+.btn{
+	color: black;
+	background-color: white;
+}
+
+.map{
+	padding: 1em;
+	border: 1px solid white;
+}
+
+
+
+/* **************************** FOOTER ****************************** */
+
+.footer{
+	background-color: black;
+	color: white;
+	padding: 3em;
+}
+
+.menu{
+	padding: 3em;
+	background-color: black;
+	color: white;
+	
+}
+
+.list{
+	
+	font-size: 1em;
+	color: white;
+	padding:2em;
+	list-style: none;
+}
+
+.inc{
+	padding: 2em;
+	background-color: black;
+	color: white;
+}
+
+hr{
+	height:1px;
+}
